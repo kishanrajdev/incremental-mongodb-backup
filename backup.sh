@@ -1,7 +1,7 @@
 #!/bin/bash
 # MongoDB incremental backup
 
-#get increment no. between 1 to 10 based on date
+#get increment no. between 0 to 9 based on date
 increment_no=$(date +"%d");
 increment_no=$((increment_no % 10));
 
